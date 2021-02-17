@@ -6,9 +6,9 @@ from diffusion_dist_diff_size import dist_calc as dist_calc_diff
 
 
 if __name__ == '__main__':
-    test1 = -1.0*nx.laplacian_matrix(nx.cycle_graph(128)).todense()
+    test1 = -1.0*nx.laplacian_matrix(nx.cycle_graph(70)).todense()
     #test2 = -1.0*nx.laplacian_matrix(nx.path_graph(4*4)).todense()
-    test3 = -1.0*nx.laplacian_matrix(nx.path_graph(128)).todense()
+    test3 = -1.0*nx.laplacian_matrix(nx.path_graph(70)).todense()
     
     #print(dist_calc(test1, test2))
     #print(dist_calc_diff(test1, test2))
